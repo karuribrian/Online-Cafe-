@@ -1,0 +1,202 @@
+/*CSS reset*/
+*{
+    margin:0%;
+    padding:0px;
+}
+#top{
+    text-align: center;
+    color:rgb(188 188 188)
+}
+#top1{
+    text-align: center;
+    font-size: 22px;
+    color:black;
+    font-family:'Ubuntu',monospace;
+}
+#navbar img{
+    display: block;
+    height:100px;
+    width:100px;
+    margin:auto;
+    margin-top: 2px;
+}
+/*navbar functionality*/
+#navbar{
+    display: flex;
+    flex-direction:row-reverse;
+    height: 20vh;
+    width: 100vw;
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: 'Ubuntu',monospace;
+}
+/*navbar content styling*/
+#navcontent{
+    display:flex;
+    justify-content:center;
+}
+ul li{
+    list-style:none;
+    margin:15px;
+    border-radius:20px;
+}
+ul li a{
+    padding: 4px;
+    color:white;
+    text-decoration:none;
+    border-radius: 5px;
+}
+/*styling the button*/
+ul li a:hover{
+    background-color: blue;
+    border-radius:5px;
+}
+#container1{
+    display:flex;
+    position:relative;
+    height: 20vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
+#container1::before{
+    content:'';
+    background-image: url("C:\Users\samel\OneDrive\Desktop\Twitter\20221015_130609.jpg") no repeat center center/cover;
+    width:100vw;
+    height: 59vh;
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin-right: 45px;
+    font-weight: bold;
+    opacity:0.89;
+    z-index:-1;
+    border:2px solid black;
+    border-bottom-left-radius:100px;
+}
+#row1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 2rem;
+}
+.btn{
+    margin-top:5px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    border-radius:10px;
+    font-size: 12px;
+}
+.btn:hover{
+    background-color:red;
+    cursor:pointer;
+}
+#container2{
+    display:flex;
+    justify-content: flex-end;
+}
+#row2{
+    height:35vh;
+    width: 81vw;
+    box-shadow: 2px 7px 16px 19px;
+    align-items: flex-end;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 600px;
+    margin-bottom: 5git 0px;
+    justify-content: center;
+    border-radius: 40px;
+}
+#row2::before{
+    content:'';
+    background: url('2.jpeg')no-repeat center center/cover;
+    top:0%;
+    bottom:0%;
+    width:24vw;
+    z-index: -1;
+    height: 21vh;
+    opacity: 0.5;
+    border-radius: 40px;
+}
+#row3{
+    display:flex;
+    position: relative;
+    width: 45vw;
+    height: 32vh;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    box-shadow: 2px 7px 16px 19px;
+    margin-right: 30px;
+    border-radius: 10px;
+
+}
+#row3::before{
+    content:'';
+    position: absolute;
+    background-color: azure;
+    opacity: 0.78;
+    z-index:-1;
+    top:0px;
+    bottom: 0px;
+    border-radius: 20px;
+    height: 24vh;
+    width: 26vw;
+}
+#order{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+}
+#top3{
+    color:red;
+    align-items: baseline;
+    font-weight: bold;
+    font-family: 'Ubuntu',monospace;
+}
+#container3{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 42px;
+}
+#row4{
+    width: 29vw;
+    height:360px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius:15px;
+    border:2px solid black;
+}
+#row5{
+    width:29vw;
+    height:360px;
+    border: 2px solid black;
+    justify-content: center;
+    display: flex;
+    align-items: flex end;
+}
+#row6{
+    width: 25vw;
+    height: 360px;
+    border: 2px solid bisque;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+#contactUs{
+    width: 100px;
+    height:100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+}
